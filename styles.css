@@ -1,0 +1,93 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 15px;
+  width: 300px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#tipOutput {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#savedTipsList {
+  margin-top: 10px;
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+#savedTipsList li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight:600;
+  border: 1px solid #ddd;
+}
+
+/* Pomodoro Timer */
+#timerDisplay {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #1e1e1e !important;
+  color: #f1f1f1 !important;
+}
+
+.dark-mode button {
+  background-color: #555;
+}
+
+.dark-mode button:hover {
+  background-color: #666;
+}
+
+.dark-mode #savedTipsList li {
+  background: #333;
+  color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+.dark-mode #tipOutput {
+  colour: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
