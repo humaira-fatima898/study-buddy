@@ -1,5 +1,6 @@
 # Study Buddy - Chrome Extension
 
+![Study Buddy Popup] (screenshot1 .png)
 **Study Buddy** is a beginner-friendly Chrome extension that helps students stay productive with:
 - 📚 Random study tips
 - 📝 Saved tips list + export option
